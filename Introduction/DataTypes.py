@@ -51,8 +51,27 @@ c = "hello, world"
 
 # modify string 
 myLetter = "  HelLo, World  "
-print(myLetter.upper()) # convert all letters from lower to upper
-print(myLetter.lower()) # convert all letters from upper to lower
-print(myLetter.strip()) # to remove the whitespace from the beginning of the string to the end of the string
-print(myLetter.replace("o", "i")) # change the letter string to another string
-print(myLetter.split(",")) # change from string to substring
+# print(myLetter.upper()) # convert all letters from lower to upper
+# print(myLetter.lower()) # convert all letters from upper to lower
+# print(myLetter.strip()) # to remove the whitespace from the beginning of the string to the end of the string
+# print(myLetter.replace("o", "i")) # change the letter string to another string
+# print(myLetter.split(",")) # change from string to substring
+
+# String concatenation = to combine two variable in only one variable
+x = "hello my bebe"
+y = "you are my world"
+z = x + " " + y
+# print(z) # combine two variable in only one variable
+
+# format string (f"{}")
+age = 36 
+txt = f" My name is John, I am {age}"
+print(txt) # combine numbers with strings
+
+price = 59
+tx = f"The price is {price:.2f} dollars for smart watch"
+print(tx) # combine numbers with strings
+
+txts = f"The prices are {56*123} smart watch and air conditioner"
+print(txts) # combine numbers with strings
+
